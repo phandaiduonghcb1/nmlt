@@ -1,0 +1,244 @@
+1. Viết chương trình quản lý nhân viên. Thông tin nhân viên bao gồm:
+
+Mã, Họ tên, giới tính, lương tuổi.
+
+Khai báo cấu trúc (struct) cần thiết để biểu diễn nhân viên.
+
+a) Xuất thông tin nhân viên.
+
+INPUT
+
+Dòng đầu tiên chứa số n là số nhân viên của công ty.
+5*n dòng tiếp theo lưu thông tin của nhân viên, thông tin mỗi nhân viên lưu trên 5 dòng liên tiếp, lần lượt là: maso, hoten, giotinh, tuoi, luong;
+ 
+
+OUTPUT
+
+Dòng đầu tiên là n (số nhân viên).
+
+n dòng tiếp theo là thông tin nhân viên. Mỗi nhân viên in trên một dòng.
+
+Mỗi dòng gồm các thông tin: maso, hoten, tuoi, luong, giotinh; cách nhau bằng một dấu phẩy
+
+Xem ví dụ.
+
+VÍ DỤ
+
+Input
+
+4
+
+19520629
+
+DangTranAnhKhoa
+
+Nam
+
+24
+
+70
+
+19520500
+
+NguyenNgocQuynhGiang
+
+Nu
+
+30
+
+60
+
+19520233
+
+VuLeAnhQuan
+
+Nam
+
+28
+
+80
+
+19520477
+
+PhamMaiDung
+
+Nu
+
+19
+
+70
+
+Output
+
+4
+19520629,DangTranAnhKhoa,24,70,Nam
+19520500,NguyenNgocQuynhGiang,30,60,Nu
+19520233,VuLeAnhQuan,28,80,Nam
+19520477,PhamMaiDung,19,70,Nu
+
+2. Viết chương trình thực hiện các yêu cầu sau:
+
+Viết chương trình quản lý nhân viên. Thông tin nhân viên bao gồm:
+
+Họ tên, năm sinh, lương, giới tính.
+
+Khai báo cấu trúc (struct) cần thiết để biểu diễn nhân viên.
+
+a) Xuất thông tin nhân viên.
+
+b) Viết hàm tìm một nhân viên trẻ nhất.
+
+INPUT
+
+Dòng đầu tiên chứa số n là số nhân viên của công ty.
+5*n dòng tiếp theo lưu thông tin của nhân viên, thông tin mỗi nhân viên lưu trên 5 dòng liên tiếp, lần lượt là: maso, hoten, giotinh, tuoi, luong;
+ 
+
+OUTPUT
+
+Dòng đầu tiên là n (số nhân viên).
+
+n dòng tiếp theo là thông tin nhân viên. Mỗi nhân viên in trên một dòng.
+
+Mỗi dòng gồm các thông tin: maso, hoten, tuoi, luong, giotinh; cách nhau bằng một dấu phẩy.
+
+Xem ví dụ.
+
+VÍ DỤ
+
+Input
+
+4
+
+19520629
+
+DangTranAnhKhoa
+
+Nam
+
+24
+
+70
+
+19520500
+
+NguyenNgocQuynhGiang
+
+Nu
+
+30
+
+60
+
+19520233
+
+VuLeAnhQuan
+
+Nam
+
+28
+
+80
+
+19520477
+
+PhamMaiDung
+
+Nu
+
+19
+
+70
+
+Output
+
+4
+19520629,DangTranAnhKhoa,24,70,Nam
+19520500,NguyenNgocQuynhGiang,30,60,Nu
+19520233,VuLeAnhQuan,28,80,Nam
+19520477,PhamMaiDung,19,70,Nu
+Nhan vien tre nhat:
+19520477,PhamMaiDung,19,70,Nu
+
+3. Viết chương trình thực hiện các yêu cầu sau:
+
+Viết chương trình quản lý nhân viên. Thông tin nhân viên bao gồm:
+
+Họ tên, năm sinh, lương, giới tính.
+
+Khai báo cấu trúc (struct) cần thiết để biểu diễn nhân viên.
+
+a) Xuất thông tin nhân viên.
+
+b) Viết hàm tìm tổng lương.
+
+INPUT
+
+Dòng đầu tiên chứa số n là số nhân viên của công ty.
+5*n dòng tiếp theo lưu thông tin của nhân viên, thông tin mỗi nhân viên lưu trên 5 dòng liên tiếp, lần lượt là: maso, hoten, giotinh, tuoi, luong;
+ 
+
+OUTPUT
+
+Dòng đầu tiên là n (số nhân viên).
+
+n dòng tiếp theo là thông tin nhân viên. Mỗi nhân viên in trên một dòng.
+
+Mỗi dòng gồm các thông tin: maso, hoten, tuoi, luong, giotinh; cách nhau bằng một dấu phẩy
+
+Xem ví dụ.
+
+VÍ DỤ
+
+Input
+
+4
+
+19520629
+
+DangTranAnhKhoa
+
+Nam
+
+24
+
+70
+
+19520500
+
+NguyenNgocQuynhGiang
+
+Nu
+
+30
+
+60
+
+19520233
+
+VuLeAnhQuan
+
+Nam
+
+28
+
+80
+
+19520477
+
+PhamMaiDung
+
+Nu
+
+19
+
+70
+
+Output
+
+4
+19520629,DangTranAnhKhoa,24,70,Nam
+19520500,NguyenNgocQuynhGiang,30,60,Nu
+19520233,VuLeAnhQuan,28,80,Nam
+19520477,PhamMaiDung,19,70,Nu
+Tong luong: 280

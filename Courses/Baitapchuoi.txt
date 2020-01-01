@@ -1,0 +1,25 @@
+Viết chương trình nhập vào 2 chuỗi: cHo,cTen.
+
+Xuất ra thông tin hai chuỗi nhập vào.
+Viết hàm nối hai chuỗi, giữa hai chuỗi có khoảng trắng.
+Viết hoa ký tự đầu tiên của chữ trong chuỗi
+Đếm số lần xuất hiện của ký tự ch.
+In ra tần suất xuất hiện của các ký tự trong chuỗi.
+
+Không dùng hàm hỗ trợ, string.
+
+Lưu ý: Ký tự A: 65, a: 97, lệch nhau 32.
+
+Ví du:
+
+cHo={'v','o'}
+
+CTen = {'n','g','u','y','e','n'}
+
+cTong = {'v','o',' ','n','g','u','y','e','n'}
+cHOA = {'V','o',' ','N','g','u','y','e','n'}
+ch = 'e', số lần xuất hiện ch là DemE = 1
+Tần suất
+v: 1
+o: 1
+n: 2

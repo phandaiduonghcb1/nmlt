@@ -1,0 +1,128 @@
+1. Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất ma trận
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+n dòng tiếp theo, mỗi dòng chứa m một số nguyên.
+
+OUTPUT
+
+Xuất theo dòng và cột. Các giá trị cùng 1 dòng cách nhau bằng khoảng trắng.
+
+2. Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất các giá trị biên của ma trận.
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+m dòng tiếp theo, mỗi dòng chứa n số nguyên.
+
+OUTPUT
+
+Xuất các giá trị cách nhau bằng khoảng trắng.	
+
+3. Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất ma trận và tính tổng
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+n dòng tiếp theo, mỗi dòng chứa m một số nguyên.
+
+OUTPUT
+
+Xuất ma trận và tính tổng.
+
+4. Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất ma trận và tính tổng các giá trị chẵn trong ma trận
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+n dòng tiếp theo, mỗi dòng chứa m một số nguyên.
+
+OUTPUT
+
+Xuất ma trận và tính tổng
+
+5. Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất ma trận và tính tổng các số nguyên tố trong ma trận
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+n dòng tiếp theo, mỗi dòng chứa m một số nguyên.
+
+OUTPUT
+
+Xuất ma trận và tính tổng nguyên tố.
+
+6.Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất ma trận và tìm giá trị lớn nhất trong ma trận
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+n dòng tiếp theo, mỗi dòng chứa m một số nguyên.
+
+OUTPUT
+
+Xuất ma trận và tính tìm giá trị lớn nhất. 
+
+7. Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất ma trận và xuất vị trí của (các) giá trị lớn nhất trong ma trận
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+n dòng tiếp theo, mỗi dòng chứa m một số nguyên.
+
+OUTPUT
+
+Xuất ma trận.
+Xuất vị trí của (các) giá trị lớn nhất trong ma trận, mỗi vị trí xuất trên 1 dòng có định dạng (i, j).
+
+8. Viết chương trình thực hiện các yêu cầu sau:
+
+	1. Nhập ma trận các số nguyên.
+
+	2. Xuất ma trận và xuất vị trí của (các) giá trị thỏa điều kiện là số chẵn trong đoạn [10, 20].
+
+INPUT
+
+Dòng đầu tiên chứa số m dòng và n cột cách nhau bằng khoảng trắng.
+
+n dòng tiếp theo, mỗi dòng chứa m một số nguyên.
+
+OUTPUT
+
+Xuất ma trận và vị trí của (các) giá trị thỏa điều kiện (nếu có).	

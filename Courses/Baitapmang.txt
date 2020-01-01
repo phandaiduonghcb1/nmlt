@@ -1,0 +1,15 @@
+1.Nhập mảng một chiều các số nguyên.
+2.Xuất mảng.
+3.Tính tổng tất cả các phần tử trong mảng.
+4.Đếm số lượng giá trị chẵn có trong mảng.
+5.Tính tổng tất cả các số nguyên tố có trong mảng.
+6.In ra vị trí các phần tử có giá trị lẻ trong mảng.
+7.Viết hàm tìm giá trị lớn nhất trong mảng.
+8.Viết hàm tìm số chẵn đầu tiên trong mảng các số nguyên. Nếu mảng không có giá trị chẵn thì trả về -1
+9.Hãy viết hàm tìm ước chung lớn nhất của tất cả các phần tử trong mảng
+10.Hãy viết hàm tìm số nguyên tố nhỏ nhất lớn hơn mọi giá trị có trong mảng.
+11.Hãy liệt kê các giá trị xuất hiện trong mảng 1 chiều các số nguyên đúng 1 lần.
+12.Hãy liệt kê các giá trị trong mảng mà thỏa điều kiện lớn hơn giá trị tuyệt đối của giá trị đứng liền sau nó.
+13.Tìm giá trị âm đầu tiên trong mảng. Nếu mảng không có giá trị âm thì trả về -1.
+14.Hãy tìm giá trị âm lớn nhất trong mảng. Nếu mảng không có giá trị âm thì trả về -1
+15.Sắp xếp lẻ tăng dần nhưng giá trị khác giữ nguyên vị trí.

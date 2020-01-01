@@ -1,0 +1,200 @@
+1. Viết chương trình thực hiện các yêu cầu sau:
+
+Hãy khai báo kiểu dữ liệu để biểu diễn thông tin của một hộp sữa (HOPSUA). Biết rằng một hộp sữa gồm các thành phần sau:
+
+Thương hiệu: chuỗi tối đa 50 ký tự
+Dung tích: kiểu số thực
+Hạn sử dụng: Kiểu dữ liệu Ngày (NGAY)
+Loại sữa: chuỗi tối đa 100 ký tự
+Xuất xứ:  chuỗi tối đa 50 ký tự
+Đơn giá: số nguyên 4 byte
+INPUT
+
+Dòng đầu tiên chứa số n là số HỘP SỮA.
+6*n dòng tiếp theo lưu thông tin của hộp sữa, thông tin mỗi nhân viên lưu trên 6 dòng liên tiếp, lần lượt là: loaisua, dungtich, thuonghieu, xuat xu, handung, giatien.
+
+Thông tin hạn dùng gồm 3 giá trị lần lượt là ngày, tháng năm, cách nhau 1 khoảng trắng. 
+
+OUTPUT
+
+Dòng đầu tiên là n (số hộp sữa).
+
+n dòng tiếp theo là thông tin n hộp sữa. Mỗi nhân viên in trên một dòng.
+
+Mỗi dòng gồm các thông tin: loaisua, dungtich, thuonghieu, xuat xu, handung, giatien; cách nhau bằng một dấu phẩy.
+
+VÍ DỤ
+
+Input
+2
+
+CoDuong
+
+120
+
+VinaMilk
+
+VietNam
+
+3 3 2020
+
+1300
+
+NguyenChatKhongDuong
+
+1000
+
+Nestle
+
+NewZealand
+
+2 2 2020
+
+2200
+
+Output
+
+2
+CoDuong, 120, VinaMilk, VietNam, 3/3/2020, 1300
+NguyenChatKhongDuong, 1000, Nestle, NewZealand, 2/2/2020, 2200
+
+2. Viết chương trình thực hiện các yêu cầu sau:
+
+Hãy khai báo kiểu dữ liệu để biểu diễn thông tin của một hộp sữa (HOPSUA). Biết rằng một hộp sữa gồm các thành phần sau:
+
+Thương hiệu: chuỗi tối đa 50 ký tự
+Dung tích: kiểu số thực
+Hạn sử dụng: Kiểu dữ liệu Ngày (NGAY)
+Loại sữa: chuỗi tối đa 100 ký tự
+Xuất xứ:  chuỗi tối đa 50 ký tự
+Đơn giá: số nguyên 4 byte
+INPUT
+
+Dòng đầu tiên chứa số n là số HỘP SỮA.
+6*n dòng tiếp theo lưu thông tin của hộp sữa, thông tin mỗi nhân viên lưu trên 6 dòng liên tiếp, lần lượt là: loaisua, dungtich, thuonghieu, xuat xu, handung, giatien.
+
+Tìm hộp sữa có dung tích lớn nhất.
+
+Thông tin hạn dùng gồm 3 giá trị lần lượt là ngày, tháng năm, cách nhau 1 khoảng trắng. 
+
+OUTPUT
+
+Dòng đầu tiên là n (số hộp sữa).
+
+n dòng tiếp theo là thông tin n hộp sữa. Mỗi nhân viên in trên một dòng.
+
+Mỗi dòng gồm các thông tin: loaisua, dungtich, thuonghieu, xuat xu, handung, giatien; cách nhau bằng một dấu phẩy.
+Xuất thông tin hợp sữa có dung tích lớn nhất.( nếu có nhiều hơn 1 thì xuất hộp nhập vào hệ thống trước)
+
+VÍ DỤ
+
+Input
+
+2
+CoDuong
+120
+VinaMilk
+VietNam
+3 3 2020
+1300
+NguyenChatKhongDuong
+1000
+Nestle
+NewZealand
+2 2 2020
+2200
+
+Output
+
+2
+CoDuong, 120, VinaMilk, VietNam, 3/3/2020, 1300
+NguyenChatKhongDuong, 1000, Nestle, NewZealand, 2/2/2020, 2200
+Dung tich lon nhat:
+NguyenChatKhongDuong, 1000, Nestle, NewZealand, 2/2/2020, 2200
+
+3. Viết chương trình thực hiện các yêu cầu sau:
+
+Hãy khai báo kiểu dữ liệu để biểu diễn thông tin của một hộp sữa (HOPSUA). Biết rằng một hộp sữa gồm các thành phần sau:
+
+Thương hiệu: chuỗi tối đa 50 ký tự
+Dung tích: kiểu số thực
+Hạn sử dụng: Kiểu dữ liệu Ngày (NGAY)
+Loại sữa: chuỗi tối đa 100 ký tự
+Xuất xứ:  chuỗi tối đa 50 ký tự
+Đơn giá: số nguyên 4 byte.
+
+Nhập xuất dữ liệu đã khai báo.
+Nhập vào ngày X. Cho biết số hộp sẽ hết hạn sau ngày X, thông tin hộp sữa và tổng giá trị.
+ 
+INPUT
+
+Dòng đầu tiên chứa số n là số HỘP SỮA.
+6*n dòng tiếp theo lưu thông tin của hộp sữa, thông tin mỗi nhân viên lưu trên 6 dòng liên tiếp, lần lượt là: loaisua, dungtich, thuonghieu, xuat xu, handung, giatien.
+Dòng cuối cùng là thông tin của ngày X.
+Thông tin kiểu NGAY gồm 3 giá trị lần lượt là ngày, tháng năm, cách nhau 1 khoảng trắng. 
+
+OUTPUT
+
+Dòng đầu tiên là n (số hộp sữa).
+
+n dòng tiếp theo là thông tin n hộp sữa. Mỗi nhân viên in trên một dòng.
+
+Mỗi dòng gồm các thông tin: loaisua, dungtich, thuonghieu, xuat xu, handung, giatien; cách nhau bằng một dấu phẩy.
+Sau đó là thông tin về số hộp sữa hết hạn và tổng giá trị.
+
+Xem ví dụ.
+
+VÍ DỤ
+
+Input
+
+3
+
+CoDuong
+
+120
+
+OngTho
+
+VietNam
+
+3 3 2020
+
+1300
+
+NguyenChatKhongDuong
+
+1800
+
+SuaTuoi
+
+HaLan
+
+2 2 2020
+
+2200
+
+NguyenChat
+
+1700
+
+SuaTuoi
+
+ABC
+
+1 2 2020
+
+2500
+
+3 2 2020
+
+Output
+
+3
+CoDuong, 120, OngTho, VietNam, 3/3/2020, 1300
+NguyenChatKhongDuong, 1800, SuaTuoi, HaLan, 2/2/2020, 2200
+NguyenChat, 1700, ThomNgon, ABC, 1/2/2020, 2500
+So hop sua het han sau ngay 3/2/2020 la: 2
+Tong gia tri: 4700
+1 NguyenChatKhongDuong, 1800, SuaTuoi, HaLan, 2/2/2020, 2200
+2 NguyenChat, 1700, ThomNgon, ABC, 1/2/2020, 2500

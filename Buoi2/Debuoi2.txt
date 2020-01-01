@@ -1,0 +1,580 @@
+1. Đọc số nguyên không âm có một chữ số
+
+INPUT
+
+Nhập một số nguyên không âm a có một chữ số
+
+OUTPUT
+
+Đọc chữ số đó cụ thể như ví dụ minh hoạ bên dưới
+
+VÍ DỤ
+
+Intput	Output
+0	khong
+1	mootj
+2	hai
+3	ba
+4	bon
+5	nam
+6	sau
+7	bay
+8	tam
+9	chin
+2. Đọc số nguyên không âm có giá trị từ 0 đến 99
+
+Để biểu diễn số nguyên không âm có giá trị từ 0 đến 99 chúng ta nhập vào hai số a và b lần lượt là hàng chục và hàng đơn vị
+
+Chẳng hạn như, 2 0 đọc là "hai mươi", 2 9 đọc là "hai mươi chín", 10 đọc là "mười", 15 đọc là "mười lăm", 9 9 đọc là "chín mươi chín". Nếu như a có giá trị bằng 0, chúng ta có thể tận dụng lời giải của các bài trước đó
+
+Một số trường hợp đặc biệt cần lưu ý
+
+Ngoài việc nắm vững nguyên tắc viết số tiền bằng chữ trên hóa đơn của Bộ Tài chính như nêu trên, trong thực tế, kế toán cần biết một số quy ước viết trong các trường hợp đặc biệt như:
+
+- Chữ số tận cùng là số 1:
+
+Trường hợp này có 2 cách viết "mootj" hoặc "moots"
+
+Viết là "mootj" nếu chữ số hàng chục nhỏ hơn hoặc bằng 1
+
+Viết là "moots" nếu chữ số hàng chục lớn hơn hoặc bằng 2
+
+- Chữ số tận cùng là số 4:
+
+Trường hợp này có hai cách viết: "bon" hoặc "tu"
+
+Viết là "bon" khi chữ số hàng chục nhỏ hơn hoặc bằng 1
+
+Viết là "tu" khi chữ số hàng chục lớn hơn hoặc bằng 2
+
+- Chữ số tận cùng là số 5:
+
+Trường hợp này, có hai viết là "lam" và "nam"
+
+Viết là "lam" nếu chữ số hàng chục lớn hơn 0, nhỏ hoặc hoặc bằng 9
+
+Viết là "nam" nếu chữ số hàng chục bằng 0 hoặc kết hợp với từ chỉ tên hàng là từ "muoiw" phía sau
+
+Nguồn: https://luatvietnam.vn/tin-phap-luat/quy-tac-moi-nhat-ve-viet-so-tien-bang-chu-tren-hoa-don-230-17634-article.html
+
+INPUT
+
+Số nguyên không âm thứ nhất có một chữ số a được coi là hàng chục
+
+Số nguyên không âm thứ nhất có một chữ số b được coi là hàng đơn vị
+
+OUTPUT
+
+Đọc chữ số đó cụ thể như ví dụ minh hoạ bên dưới
+
+VÍ DỤ
+
+Intput	Output
+0
+0	khong
+ 
+0
+1	mootj
+ 
+0
+2	hai
+ 
+1
+0	muoiwf
+ 
+1
+1	muoiwf mootj
+ 
+1
+5	muoiwf lam
+ 
+2
+5	hai muoiw lam
+ 
+2
+0	hai muoiw
+ 
+2
+1	hai muoiw moots
+ 
+2
+2	hai muoiw hai
+ 
+9
+9	chin muoiw chin
+ 
+2
+4	hai muoiw tu
+ 
+1
+4	muoiwf bon
+
+3. Đọc số nguyên không âm có giá trị từ 0 đến 999
+
+Để biểu diễn số nguyên không âm có giá trị từ 0 đến 999 chúng ta nhập vào hai số a, b, và c lần lượt là hàng trăm, hàng chục, và hàng đơn vị
+
+Chẳng hạn như, 2 0 0 đọc là "hai trăm", 2 0 9 đọc là "hai trăm lẻ chín", 2 0 5 đọc là "hai trăm lẻ năm", 2 0 5 đọc là "hai trăm mười lăm", 2 3 5 đọc là "hai trăm ba mươi lăm". Nếu như a, hoặc b có giá trị bằng 0, chúng ta có thể tận dụng lời giải của các bài trước đó
+
+Một số trường hợp đặc biệt cần lưu ý
+
+Ngoài việc nắm vững nguyên tắc viết số tiền bằng chữ trên hóa đơn của Bộ Tài chính như nêu trên, trong thực tế, kế toán cần biết một số quy ước viết trong các trường hợp đặc biệt như:
+
+- Chữ số tận cùng là số 1:
+
+Trường hợp này có 2 cách viết "mootj" hoặc "moots"
+
+Viết là "mootj" nếu chữ số hàng chục nhỏ hơn hoặc bằng 1
+
+Viết là "moots" nếu chữ số hàng chục lớn hơn hoặc bằng 2
+
+- Chữ số tận cùng là số 4:
+
+Trường hợp này có hai cách viết: "bon" hoặc "tu"
+
+Viết là "bon" khi chữ số hàng chục nhỏ hơn hoặc bằng 1
+
+Viết là "tu" khi chữ số hàng chục lớn hơn hoặc bằng 2
+
+- Chữ số tận cùng là số 5:
+
+Trường hợp này, có hai viết là "lam" và "nam"
+
+Viết là "lam" nếu chữ số hàng chục lớn hơn 0, nhỏ hoặc hoặc bằng 9
+
+Viết là "nam" nếu chữ số hàng chục bằng 0 hoặc kết hợp với từ chỉ tên hàng là từ "muoiw" phía sau
+
+Nguồn: https://luatvietnam.vn/tin-phap-luat/quy-tac-moi-nhat-ve-viet-so-tien-bang-chu-tren-hoa-don-230-17634-article.html
+
+INPUT
+
+Số nguyên không âm thứ nhất có một chữ số a được coi là hàng trăm
+
+Số nguyên không âm thứ nhất có một chữ số b được coi là hàng chục
+
+Số nguyên không âm thứ nhất có một chữ số c được coi là hàng đơn vị
+
+OUTPUT
+
+Đọc chữ số đó cụ thể như ví dụ minh hoạ bên dưới
+
+VÍ DỤ
+
+Intput	Output
+0
+0
+0	khong
+
+ 
+0
+0
+1	mootj
+
+ 
+0
+0
+2	hai
+
+ 
+0
+0
+5	nam
+
+ 
+0
+0
+9	chin
+
+ 
+0
+1
+0	muoiwf
+
+ 
+0
+1
+1	muoiwf mootj
+
+ 
+0
+1
+5	muoiwf lam
+
+ 
+0
+9
+9	chin muoiw chin
+
+ 
+1
+0
+0	mootj tram
+
+ 
+1
+0
+1	mootj tram le mootj
+
+ 
+1
+0
+5	mootj tram le nam
+
+ 
+1
+2
+5	mootj tram hai muoiw lam
+
+ 
+1
+2
+0	mootj tram hai muoiw
+
+ 
+5
+0
+0	nam tram
+
+ 
+6
+9
+9	sau tram chin muoiw chin
+
+ 
+6
+0
+4	sau tram le bon
+
+ 
+6
+2
+4	sau tram hai muoiw tu
+
+ 
+0
+2
+4	hai muoiw tu
+
+ 
+0
+1
+4	muoiwf bon
+
+4. Đọc số nguyên không âm có giá trị từ 0 đến 9999
+
+Để biểu diễn số nguyên không âm có giá trị từ 0 đến 9999 chúng ta nhập vào hai số a, b, c, và d lần lượt là hàng nghìn, hàng trăm, hàng chục, và hàng đơn vị
+
+Chẳng hạn như, 2 0 0 5 đọc là "hai nghìn không trăm lẻ năm", 2 0 1 9 đọc là "hai nghìn không trăm mười chín", 2 0 0 0 đọc là "hai nghìn". Nếu như a, b, hoặc c có giá trị bằng 0, chúng ta có thể tận dụng lời giải của các bài trước đó
+
+Một số trường hợp đặc biệt cần lưu ý
+
+Ngoài việc nắm vững nguyên tắc viết số tiền bằng chữ trên hóa đơn của Bộ Tài chính như nêu trên, trong thực tế, kế toán cần biết một số quy ước viết trong các trường hợp đặc biệt như:
+
+- Chữ số tận cùng là số 1:
+
+Trường hợp này có 2 cách viết "mootj" hoặc "moots"
+
+Viết là "mootj" nếu chữ số hàng chục nhỏ hơn hoặc bằng 1
+
+Viết là "moots" nếu chữ số hàng chục lớn hơn hoặc bằng 2
+
+- Chữ số tận cùng là số 4:
+
+Trường hợp này có hai cách viết: "bon" hoặc "tu"
+
+Viết là "bon" khi chữ số hàng chục nhỏ hơn hoặc bằng 1
+
+Viết là "tu" khi chữ số hàng chục lớn hơn hoặc bằng 2
+
+- Chữ số tận cùng là số 5:
+
+Trường hợp này, có hai viết là "lam" và "nam"
+
+Viết là "lam" nếu chữ số hàng chục lớn hơn 0, nhỏ hoặc hoặc bằng 9
+
+Viết là "nam" nếu chữ số hàng chục bằng 0 hoặc kết hợp với từ chỉ tên hàng là từ "muoiw" phía sau
+
+Nguồn: https://luatvietnam.vn/tin-phap-luat/quy-tac-moi-nhat-ve-viet-so-tien-bang-chu-tren-hoa-don-230-17634-article.html
+
+INPUT
+
+Số nguyên không âm thứ nhất có một chữ số a được coi là hàng nghìn
+
+Số nguyên không âm thứ nhất có một chữ số b được coi là hàng trăm
+
+Số nguyên không âm thứ nhất có một chữ số c được coi là hàng chục
+
+Số nguyên không âm thứ nhất có một chữ số d được coi là hàng đơn vị
+
+OUTPUT
+
+Đọc chữ số đó cụ thể như ví dụ minh hoạ bên dưới
+
+VÍ DỤ
+
+Intput	Output
+0
+0
+0
+0	khong
+
+
+ 
+0
+0
+0
+1	mootj
+
+
+ 
+0
+0
+0
+5	nam
+
+
+ 
+0
+0
+1
+0	muoiwf
+
+
+ 
+0
+0
+1
+5	muoiwf lam
+
+
+ 
+0
+1
+1
+5	mootj tram muoiwf lam
+
+
+ 
+0
+1
+9
+5	mootj tram chin muoiw lam
+
+
+ 
+1
+0
+0
+0	mootj nghin
+
+
+ 
+1
+0
+0
+1	mootj nghin khong tram le mootj
+
+
+ 
+2
+0
+0
+5	hai nghin khong tram le nam
+
+
+ 
+2
+0
+1
+9	hai nghin khong tram muoiwf chin
+
+
+ 
+2
+0
+1
+5	hai nghin khong tram muoiwf lam
+
+
+ 
+9
+9
+9
+9	chin nghin chin tram chin muoiw chin
+
+
+ 
+2
+0
+2
+1	hai nghin khong tram hai muoiw moots
+
+
+ 
+0
+6
+0
+4	sau tram le bon
+
+
+ 
+0
+6
+2
+4	sau tram hai muoiw tu
+
+
+ 
+0
+0
+2
+4	hai muoiw tu
+
+
+ 
+0
+0
+1
+4	muoiwf bon
+
+5. Viết chương trình nhập xuất ra màn hình thông báo như ví dụ.
+
+INPUT:
+
+Dòng đầu tiên là số lần lặp.
+
+Dòng thứ hai là tên.
+
+OUTPUT
+
+Xuất ra n dòng như ví dụ.
+
+ 
+
+Hướng dẫn để đọc biến kiểu string thì cần thêm vào thư viện: #include <string>
+
+Cách khai báo biến kiểu string:
+
+string ten; // ten là biến kiểu string
+
+VÍ DỤ:
+
+INPUT
+
+5
+
+Lan
+
+OUTPUT
+
+Minh yeu Lan nhieu lam!
+
+Minh yeu Lan nhieu lam!
+
+Minh yeu Lan nhieu lam!
+
+Minh yeu Lan nhieu lam!
+
+Minh yeu Lan nhieu lam!
+
+6. Viết chương trình tính S(n) = 1 + 2 + …+ n, n là số nguyên không âm.
+
+INPUT:
+
+Giá trị n.
+
+OUTPUT
+
+In ra như ví dụ.
+
+ 
+
+VÍ DỤ:
+
+INPUT
+
+5
+
+OUTPUT
+
+Tong la : 15
+7. Viết chương trình tính S(n) = 1 + 2 + …+ n, n là số nguyên không âm.
+INPUT:
+
+Giá trị n.
+
+OUTPUT
+
+In ra như ví dụ.
+
+VÍ DỤ:
+
+INPUT
+
+5
+
+OUTPUT
+
+S(5) = 1 + 2 + 3 + 4 + 5 = 15
+8. Viết chương trình tính S(n) = 1 + 2 + …+ n, n là số nguyên không âm.
+
+INPUT:
+
+Giá trị n.
+
+OUTPUT
+
+In ra như ví dụ.
+
+VÍ DỤ:
+
+INPUT
+
+5
+
+OUTPUT
+
+i = 1:
+
+ S(1) = 1
+
+i = 2:
+
+ S(2) = 1 + 2
+
+i = 3:
+
+ S(3) = 1 + 2 + 3
+
+i = 4:
+
+ S(4) = 1 + 2 + 3 + 4
+
+i = 5:
+
+ S(5) = 1 + 2 + 3 + 4 + 5
+9. Viết chương trình tính S(n) = 1 + 1/2 + …+ 1/n, n là số nguyên không âm.
+
+INPUT:
+
+Giá trị n.
+
+OUTPUT
+
+In ra như ví dụ. Giá trị S làm tròn hai chữ số.
+
+VÍ DỤ:
+
+INPUT
+
+5
+
+OUTPUT
+
+S(5) = 1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.28
+
+10. Viết chương trình liệt kê tất cả các ước số của số nguyên dương n.
+11. Viết chương trình tìm số đão ngược của số nguyên dương n.
+12. Viết chương trình liệt kê tất cả các số nguyên tố từ 1 đến n.
+13. Viết chương trình liệt kê tất cả các số hoàn thiện từ 1 đến n.
+14. Viết chương trình tìm ước số lẻ lớn nhất của số nguyên dương n.
+15. Viết chương trình in ra tất cả chữ số của số nguyên dương n.

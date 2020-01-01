@@ -1,0 +1,81 @@
+1. Hãy viết chương trình nhập mảng từ bàn phím
+
+INPUT
+
+Dòng đầu tiên chứa số n (n < 1000000). Đây là số lượng phần tử trong mảng.
+
+n dòng tiếp theo, mỗi dòng là một số nguyên dương có giá trị không quá một tỷ.
+
+OUTPUT
+
+Xuất các số trong mảng ra theo thứ tự nhập vào. Mỗi số xuất trên một dòng.
+
+2. Hãy viết chương trình nhập mảng từ bàn phím
+
+INPUT
+
+Dòng đầu tiên chứa số n (n < 1000000). Đây là số lượng phần tử trong mảng.
+
+n dòng tiếp theo, mỗi dòng là một số nguyên dương có giá trị không quá một tỷ.
+
+OUTPUT
+
+Xuất các số trong mảng ra theo thứ tự nhập vào trước, xuất ra sau. Mỗi số xuất trên một dòng.
+
+3. Hãy viết chương trình nhập mảng từ bàn phím
+
+INPUT
+
+Dòng đầu tiên chứa số n (n < 1000000). Đây là số lượng phần tử trong mảng.
+
+n dòng tiếp theo, mỗi dòng là một số nguyên dương có giá trị không quá một tỷ.
+
+OUTPUT
+
+Xuất các số trong mảng ra theo thứ tự nhập vào. Mỗi số xuất trên một dòng.
+
+Dòng cuối cùng là tổng các giá trị trong mảng.
+
+4. Hãy viết chương trình nhập mảng từ bàn phím
+
+INPUT
+
+Dòng đầu tiên chứa số n (n < 1000000). Đây là số lượng phần tử trong mảng.
+
+n dòng tiếp theo, mỗi dòng là một số nguyên dương có giá trị không quá một tỷ.
+
+OUTPUT
+
+Xuất các số trong mảng ra theo thứ tự nhập vào. Mỗi giá trị cách nhau một khoảng trắng.
+
+Dòng tiếp theo xuất ra giá trị lớn nhất trong mảng. 
+
+5. Hãy viết chương trình nhập mảng từ bàn phím
+
+INPUT
+
+Dòng đầu tiên chứa số n (n < 10000). Đây là số lượng phần tử trong mảng.
+
+n dòng tiếp theo, mỗi dòng là một số nguyên dương có giá trị không quá một tỷ.
+
+OUTPUT
+
+Xuất các số trong mảng ra theo thứ tự nhập vào. Mỗi giá trị in trên một dòng.
+
+Dòng tiếp theo xuất ra vị trí lớn nhất trong mảng.
+
+6. Hãy viết chương trình nhập mảng từ bàn phím. Sắp mảng tăng.
+
+INPUT
+
+Dòng đầu tiên chứa số n (n < 10000). Đây là số lượng phần tử trong mảng.
+
+n dòng tiếp theo, mỗi dòng là một số nguyên dương có giá trị không quá một tỷ.
+
+OUTPUT
+
+Sắp mảng tăng và xuất mảng.
+
+Dòng đầu chứa số phần tử của mảng. 
+
+Dòng tiếp theo chứa các giá trị của mảng và cách nhau một khoảng trắng.

@@ -1,0 +1,274 @@
+1. HELLO UIT
+
+Viết chương trình in ra màn hình dòng chữ như sau:
+
+Chao mung ban da den voi Truong DH Cong nghe Thong tin!
+
+INPUT
+
+OUTPUT
+
+Dòng văn bản như đã mô tả ở trên.
+2. TÍNH CHU VI & DIỆN TÍCH HÌNH VUÔNG
+
+Viết chương trình tính chu vi và diện tích của hình vuông.
+
+INPUT
+
+Cạnh hình vuông a là số nguyên dương.
+
+OUTPUT
+
+Chu vi và diện tích của hình vuông cạnh a.
+3. TÍNH TỔNG VÀ TÍCH HAI SỐ NGUYÊN DƯƠNG
+
+Viết chương trình tính tổng và tích của hai số nguyên dương.
+
+INPUT
+
+Hai số nguyên dương a, b.
+
+OUTPUT
+
+Tổng và tích hai số nguyên dương a, b đã nhập.
+4. TRÀ ĐÀO VÀ CÀ PHÊ SỮA
+
+Bạn Nguyên đi cafe với bạn Kiệt. Họ mua (x) ly Trà Đào và (y) ly cafe sữa. Giá của một ly Trà Đào là (a) đồng. Giá của ly một cafe sữa là (b) đồng. Bạn Nguyên đưa cho thu ngân 500000 đồng. Tính số tiền mà bạn Nguyên nhận lại từ thu ngân.
+
+INPUT
+
+Số lượng ly Trà Đào, số lượng ly cafe sữa, đơn giá của ly Trà Đào, đơn giá của ly cafe sữa (tất cả đều là số nguyên dương) (mệnh giá tiền nhỏ nhất là 500 đồng).
+
+OUTPUT
+
+Số tiền mà bạn Nguyên nhận lại (trong trường hợp bạn Nguyên không đủ tiền, chúng ta vẫn in ra màn hình số tiền âm).
+5. IN HÌNH CHỮ NHẬT
+
+Viết chương trình nhập một số nguyên dương có một chữ số. Sau đó in ra màn hình một hình chữ nhật gồm 4 cột và 5 hàng như sau.
+
+INPUT
+
+Số nguyên dương có một chữ số.
+
+OUTPUT
+
+In ra 5 dòng có định dạng như bên dưới (các bạn nhớ để ý các chuỗi khoảng trắng ở giữa các số nguyên dương có một chữ số).
+6. TÍNH THUẾ GIÁ TRỊ GIA TĂNG
+
+Viết chương trình nhập số lượng và đơn giá của một sản phẩm cho trước. In ra màn hình tiền và thuế giá trị gia tăng (10% tiền).
+
+INPUT
+
+Số lượng (a) và đơn giá (b) (đồng) đều là số nguyên dương (mệnh giá tiền nhỏ nhất là 500 đồng).
+
+OUTPUT
+
+Tiền và thuế giá trị gia tăng.
+Viết chương trình nhập vào một số thực dương khác 0 (số chữ số sau dấu thập phân là k, không vượt quá 6). Sau đó, chúng ta nhập tiếp một số nguyên dương d có một chữ số (d < k), là số chữ số mà chúng ta muốn làm trong sau dấu thập phân.
+
+INPUT
+
+Số dương x khác 0 và số nguyên dương d như mô tả ở trên.
+
+OUTPUT
+
+Số được làm tròn từ x với d chữ số sau dấu thập phân.
+8. TÍNH TỔNG, HIỆU, TÍCH, THƯƠNG CỦA HAI SỐ THỰC
+
+Viết chương trình nhập vào lần lượt hai số thực a, b khác 0 (số chữ số đằng trước và đằng sau dấu thập phân đều không vượt quá 2). Tính tổng, hiệu, tích, thương của a, và b. Lưu ý rằng, kết quả được làm tròn 2 chữ số sau dấu thập phân.
+
+INPUT
+
+Hai số thực a, và b khác 0 như đã mô tả ở trên.
+
+OUTPUT
+
+Tổng, hiệu, tích, thương của hai số đã nhập (lưu ý kết quả phải được làm tròn như mô tả ở trên).
+9. TÍNH DIỆN HÌNH TAM GIÁC SỬ DỤNG CÔNG THỨC HERON
+
+Viết chương trình nhập vào độ dài các cạnh của một tam giác.
+
+In ra màn hình diện tích của tam giác đã cho sử dụng Công thức Heron.
+
+INPUT
+
+Độ dài ba cạnh của tam giác a,b,c là số nguyên dương nhỏ hơn 20.
+
+OUTPUT
+
+Diện tích của tam giác đã cho với kết quả làm tròn 2 chữ số sau dấu thập phân.
+10. SO SÁNH BẰNG ĐỐI VỚI HAI SỐ NGUYÊN
+
+Viết chương trình nhập vào hai số nguyên dương a, b.
+
+In ra màn hình số 1 nếu hai số đã nhập có giá trị bằng nhau, trong trường hợp ngược lại in số 0.
+
+Lưu ý, các bạn không sử dụng lệnh if-else.
+
+INPUT
+
+Hai số nguyên dương a, b.
+
+OUTPUT
+
+In ra màn hình 1 nếu hai số a, b có giá trị bằng nhau, trong trường hợp ngược lại in ra màn hình số 0.
+11. Viết chương trình nhập vào hai số nguyên a và b. In ra 1 nếu hai số bằng nhau, in ra 0 nếu hai số khác nhau.
+
+INPUT:
+
+Dòng đầu tiên là số thứ nhất.
+
+Dòng thứ hai là số thứ hai.
+
+OUTPUT
+
+Xuất ra 0 ( nếu hai số khác nhau), 1 (nếu hai số bằng nhau).
+12. Viết chương trình nhập vào hai số nguyên a và b (a khác b). In ra số nguyên nhỏ nhất.
+
+INPUT:
+
+Dòng đầu tiên là số thứ nhất.
+
+Dòng thứ hai là số thứ hai.
+
+OUTPUT
+
+In ra số nguyên nhỏ nhất.
+13. Viết chương trình nhập vào hai số thực a và b. In ra số thực lớn nhất.
+
+INPUT:
+
+Dòng đầu tiên là số thứ nhất.
+
+Dòng thứ hai là số thứ hai.
+
+OUTPUT
+
+In ra số thực lớn nhất.
+14. Viết chương trình nhập vào 3 số thực a, b và c. In ra số lớn nhất
+
+INPUT:
+
+Dòng đầu tiên là số thứ nhất.
+
+Dòng thứ hai là số thứ hai.
+
+Dòng thứ ba là số thứ ba.
+
+OUTPUT
+
+In ra số thực lớn nhất.
+15. Viết chương trình nhập vào 3 số thực khác nhau a, b và c. In ra các số theo thứ tự tăng dần.
+
+ 
+
+INPUT:
+
+Dòng đầu tiên là số thứ nhất.
+
+Dòng thứ hai là số thứ hai.
+
+Dòng thứ ba là số thứ ba.
+
+OUTPUT
+
+In ra các số theo thứ tự tăng dần.
+16. Viết chương trình giải phương trình bậc nhất ax + b = 0.
+
+ 
+
+INPUT:
+
+Dòng đầu tiên là a.
+
+Dòng thứ hai là b
+
+OUTPUT
+
+In ra giá trị x
+17. Viết chương trình giải phương trình bậc hai: ax^2 + bx + c = 0 (a ≠ 0)
+
+ 
+
+INPUT:
+
+Dòng đầu tiên là a.
+
+Dòng thứ hai là b
+
+Dòng thứ ba là c.
+
+ 
+
+OUTPUT
+
+Xuất ra kết quả nghiệm phương trình.
+18. Viết chương trình nhập vào điểm thi 3 môn toán, lý và hóa. Tính điểm trung bình và xếp loại học lực.
+
+Cách tính điểm trung bình (DTB), DTB = (điểm toán + điếm lý + điểm hóa )/3. Làm tròn 2 chữ số thập phân.
+
+Điều kiện xếp loại:
+
+·       xuất sắc (XUAT SAC) : [9-10];
+
+·       giỏi (GIOI): [8-9);
+
+·       khá (KHA): [7-8);
+
+·       trung bình khá (TB KHA): [6-7);
+
+·       trung bình (TB): [5-6);
+
+·       yếu (YEU): [4-5) và kém (KEM): dưới 4.
+
+INPUT:
+
+Dòng đầu tiên là điểm Toán.
+
+Dòng thứ hai là điểm Lý.
+
+Dòng thứ ba là điểm Hóa.
+
+ 
+
+OUTPUT
+
+Xuất ra DTB và xếp loại học lực.
+19. Viết chương trình nhập vào 3 cạnh của một tam giác. Cho biết đó là loại tam giác gì?
+
+Biết có 5 loại: không phải tam giác, tam giác thường, cân, đều, vuông.
+
+Nếu là tam giác tính diện tích tam giác.
+
+INPUT:
+
+Dòng đầu tiên là độ dài cạnh 1.
+
+Dòng thứ hai là độ dài cạnh 2.
+
+Dòng thứ ba là độ dài cạnh 3.
+
+OUTPUT
+
+Diện tích làm tròn 02 chữ số sau dấu thập phân.
+20. Viết chương trình nhập vào ngày tháng năm. Kiểm tra ngày tháng năm nhập vào có hợp lệ hay không?
+
+Giả sử:
+
+·       năm hợp lệ: năm  >  0, 
+
+·       tháng 2 có 28 ngày (năm không nhuận), hoặc 29 ngày (năm nhuận),
+
+·       năm nhuận: chia hết cho 4 nhưng không chia hết cho 100, hoặc chia hết cho 400,
+
+·       tháng 4, 6, 9, 11 có 30 ngày,
+
+·       Các tháng còn lại có 31 ngày.
+
+ 
+
+INPUT:
+
+Nhập ngay, thang, nam trên cùng một dòng (ba số nguyên cách nhau bởi khoảng trắng).
+OUTPUT:
+Kiểm tra ngày tháng năm nhập vào có hợp lệ hay không?
